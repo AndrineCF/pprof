@@ -307,9 +307,9 @@ function handleMouseUp(evt) {
 <polygon fill="#f8f8f8" stroke="black" points="611.5,-531 16.5,-531 16.5,-396 611.5,-396 611.5,-531"/>
 <text text-anchor="start" x="24.5" y="-514.2" font-family="Times,serif" font-size="16.00">File: wordcount02</text>
 <text text-anchor="start" x="24.5" y="-496.2" font-family="Times,serif" font-size="16.00">Type: inuse_space</text>
-<text text-anchor="start" x="24.5" y="-478.2" font-family="Times,serif" font-size="16.00">Time: Mar 9, 2023 at 11:20pm (UTC)</text>
-<text text-anchor="start" x="24.5" y="-460.2" font-family="Times,serif" font-size="16.00">Showing nodes accounting for 1246.34kB, 99.17% of 1256.84kB total</text>
-<text text-anchor="start" x="24.5" y="-442.2" font-family="Times,serif" font-size="16.00">Dropped 64 nodes (cum &lt;= 6.28kB)</text>
+<text text-anchor="start" x="24.5" y="-478.2" font-family="Times,serif" font-size="16.00">Time: Mar 9, 2023 at 11:27pm (UTC)</text>
+<text text-anchor="start" x="24.5" y="-460.2" font-family="Times,serif" font-size="16.00">Showing nodes accounting for 1246.36kB, 99.15% of 1257.10kB total</text>
+<text text-anchor="start" x="24.5" y="-442.2" font-family="Times,serif" font-size="16.00">Dropped 74 nodes (cum &lt;= 6.29kB)</text>
 <text text-anchor="start" x="24.5" y="-405.2" font-family="Times,serif" font-size="16.00">See https://git.io/JfYMW for how to read the graph</text>
 </a>
 </g>
@@ -321,7 +321,7 @@ function handleMouseUp(evt) {
 <polygon fill="#edd5d5" stroke="#b20000" points="756,-173 494,-173 494,-87 756,-87 756,-173"/>
 <text text-anchor="middle" x="625" y="-149.8" font-family="Times,serif" font-size="24.00">main</text>
 <text text-anchor="middle" x="625" y="-123.8" font-family="Times,serif" font-size="24.00">readbyte</text>
-<text text-anchor="middle" x="625" y="-97.8" font-family="Times,serif" font-size="24.00">1246.33kB (99.16%)</text>
+<text text-anchor="middle" x="625" y="-97.8" font-family="Times,serif" font-size="24.00">1246.33kB (99.14%)</text>
 </a>
 </g>
 </g>
@@ -353,36 +353,36 @@ function handleMouseUp(evt) {
 <!-- N2 -->
 <g id="node2" class="node">
 <title>N2</title>
-<g id="a_node2"><a xlink:title="runtime.main (1251.15kB)">
+<g id="a_node2"><a xlink:title="runtime.main (1251.41kB)">
 <polygon fill="#edd5d5" stroke="#b20000" points="746.5,-481.5 629.5,-481.5 629.5,-445.5 746.5,-445.5 746.5,-481.5"/>
 <text text-anchor="middle" x="688" y="-470.6" font-family="Times,serif" font-size="8.00">runtime</text>
 <text text-anchor="middle" x="688" y="-461.6" font-family="Times,serif" font-size="8.00">main</text>
-<text text-anchor="middle" x="688" y="-452.6" font-family="Times,serif" font-size="8.00">0 of 1251.15kB (99.55%)</text>
+<text text-anchor="middle" x="688" y="-452.6" font-family="Times,serif" font-size="8.00">0 of 1251.41kB (99.55%)</text>
 </a>
 </g>
 </g>
 <!-- N3 -->
 <g id="node3" class="node">
 <title>N3</title>
-<g id="a_node3"><a xlink:title="main.main (1251.15kB)">
+<g id="a_node3"><a xlink:title="main.main (1251.41kB)">
 <polygon fill="#edd5d5" stroke="#b20000" points="750.5,-345 625.5,-345 625.5,-297 750.5,-297 750.5,-345"/>
 <text text-anchor="middle" x="688" y="-333.8" font-family="Times,serif" font-size="9.00">main</text>
 <text text-anchor="middle" x="688" y="-323.8" font-family="Times,serif" font-size="9.00">main</text>
-<text text-anchor="middle" x="688" y="-313.8" font-family="Times,serif" font-size="9.00">0.02kB (0.0012%)</text>
-<text text-anchor="middle" x="688" y="-303.8" font-family="Times,serif" font-size="9.00">of 1251.15kB (99.55%)</text>
+<text text-anchor="middle" x="688" y="-313.8" font-family="Times,serif" font-size="9.00">0.03kB (0.0025%)</text>
+<text text-anchor="middle" x="688" y="-303.8" font-family="Times,serif" font-size="9.00">of 1251.41kB (99.55%)</text>
 </a>
 </g>
 </g>
 <!-- N2&#45;&gt;N3 -->
 <g id="edge3" class="edge">
 <title>N2&#45;&gt;N3</title>
-<g id="a_edge3"><a xlink:title="runtime.main &#45;&gt; main.main (1251.15kB)">
+<g id="a_edge3"><a xlink:title="runtime.main &#45;&gt; main.main (1251.41kB)">
 <path fill="none" stroke="#b20000" stroke-width="5" d="M688,-445.27C688,-423.05 688,-383.91 688,-355.68"/>
 <polygon fill="#b20000" stroke="#b20000" stroke-width="5" points="692.38,-355.46 688,-345.46 683.63,-355.46 692.38,-355.46"/>
 </a>
 </g>
-<g id="a_edge3&#45;label"><a xlink:title="runtime.main &#45;&gt; main.main (1251.15kB)">
-<text text-anchor="middle" x="729" y="-366.8" font-family="Times,serif" font-size="14.00"> 1251.15kB</text>
+<g id="a_edge3&#45;label"><a xlink:title="runtime.main &#45;&gt; main.main (1251.41kB)">
+<text text-anchor="middle" x="729" y="-366.8" font-family="Times,serif" font-size="14.00"> 1251.41kB</text>
 </a>
 </g>
 </g>
@@ -403,7 +403,7 @@ function handleMouseUp(evt) {
 <!-- NN3_0 -->
 <g id="NN3_0" class="node">
 <title>NN3_0</title>
-<g id="a_NN3_0"><a xlink:title="0.02kB">
+<g id="a_NN3_0"><a xlink:title="0.03kB">
 <polygon fill="#f8f8f8" stroke="black" points="779,-246 729,-246 725,-242 725,-210 775,-210 779,-214 779,-246"/>
 <polyline fill="none" stroke="black" points="775,-242 725,-242 "/>
 <polyline fill="none" stroke="black" points="775,-242 775,-210 "/>
@@ -415,13 +415,13 @@ function handleMouseUp(evt) {
 <!-- N3&#45;&gt;NN3_0 -->
 <g id="edge2" class="edge">
 <title>N3&#45;&gt;NN3_0</title>
-<g id="a_edge2"><a xlink:title="0.02kB">
+<g id="a_edge2"><a xlink:title="0.03kB">
 <path fill="none" stroke="black" d="M704.48,-296.57C713.6,-283.61 724.93,-267.49 734.24,-254.26"/>
 <polygon fill="black" stroke="black" points="737.13,-256.23 740.02,-246.03 731.41,-252.2 737.13,-256.23"/>
 </a>
 </g>
-<g id="a_edge2&#45;label"><a xlink:title="0.02kB">
-<text text-anchor="middle" x="752.5" y="-267.8" font-family="Times,serif" font-size="14.00"> 0.02kB</text>
+<g id="a_edge2&#45;label"><a xlink:title="0.03kB">
+<text text-anchor="middle" x="752.5" y="-267.8" font-family="Times,serif" font-size="14.00"> 0.03kB</text>
 </a>
 </g>
 </g>
